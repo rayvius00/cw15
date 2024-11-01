@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Montserrat", serif;
+}
+
+.cont{
+    padding: 40px;
+    width: 1000px;
+}
+.header{
+display:grid;
+grid-template-columns: 500px 700px;
+margin-left: -100px;
+}
+
+.menus{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px;
+}
+
+.maincont{
+   display: grid;
+   grid-template-columns: 600px 400px;
+   column-gap: 40px;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    font-family: "Montserrat", serif;
+}
+
+.bottomleft h2{
+font-size: 50px;
+}
+
+.but button {
+    background-color: orangered;
+    width: 200px;
+    height: 30px;
+    border: none;
+   color: rgb(0, 0, 58);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+
+
+.butparent{
+    position: relative;
+}
+
+.but{
+    position: absolute;
+    top: 40px;
+
+}
+
+.pr{
+    margin-top: 20px;
+}
+
+.blackbox{
+    background-color: rgb(0, 0, 58);
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.header2 h2{
+color: orangered;
+font-size: 30px;
+}
+ 
+.row1 h2, .row2 h2 , .row3 h2{
+    font-size: 20px;
+    color: white;
+}
+
+.row1 p, .row2 p , .row3 p{
+    color: grey;
+    margin-top: 10px;
+}
+
+.rows{
+    margin-top: 30px;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.theend{
+    display: grid;
+    grid-template-columns: 333px 333px 333px;
+    padding: 20px;
+}
+
+.end1 , .end2, .end3 {
+    display: grid;
+    grid-template-columns: 151px 151px;
+}
+ 
+.num{
+    color: orangered;
+}
+
+span{
+font-weight: bold;
+}
+
+.subtitle{
+    color: grey;
+}
+
+@media screen and (max-width:450px) {
+ 
+     
+    .menus{
+        display: none;
+    }
+        
+        .maincont{
+           display: flex;
+           flex-direction: column;
+        }
+        
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat", serif;
+        }
+        
+        .bottomleft h2{
+        font-size: 40px;
+        margin-left: 250px;
+        }
+        
+        .but button {
+            background-color: orangered;
+            width: 150px;
+            height: 20px;
+            border: none;
+           color: rgb(0, 0, 58);
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: 400;
+           margin-left: 250px;
+        }
+        .bottomright{
+            margin-left: 250px;
+            width: 450px;
+            margin-bottom: 40px;
+        }
+        
+        .pr{
+            margin-top: 20px;
+        }
+        
+        .blackbox{
+            background-color: rgb(0, 0, 58);
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+            margin-left: 250px;
+        }
+        
+        .header2 h2{
+        color: orangered;
+        font-size: 20px;
+        }
+         
+        .row1 h2, .row2 h2 , .row3 h2{
+            font-size: 20px;
+            color: white;
+        }
+        
+        .row1 p, .row2 p , .row3 p{
+            color: grey;
+            margin-top: 10px;
+        }
+        
+        .rows{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        
+        hr{
+            margin-top: 20px;
+        }
+        
+        .theend{
+            display:flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        .end1 , .end2, .end3 {
+           display:grid;
+           grid-template-columns: 50% 50%;
+        }
+         
+        .num{
+            color: orangered;
+        }
+        
+        span{
+        font-weight: bold;
+        }
+        
+        .subtitle{
+            color: grey;
+        }
+
+        .pic img{
+            width: 120px;
+            height:60px;
+            margin-left: 250px;
+        }
+
+        .top img{
+            width: 500px;
+            margin-left: 250px;
+        }
+
+        .logo{
+            margin-left: 350px;
+        }
+
+        .pictext{
+            margin-left: 30px;
+            width: 300px;
+        }
+
+        .header{
+            width:400px
+        }
+}
